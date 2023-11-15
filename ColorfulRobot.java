@@ -2,7 +2,8 @@ import java.util.Random;
 
 /**
  * The ColorfulRobot changes color everytime it moves and it moves in rectangle.
- *
+ * changement github
+ * 
  * @author Mélany LEFEVRE--ROMY
  * @version 30/10/2023
  */
@@ -27,7 +28,7 @@ public class ColorfulRobot extends Robot
         super(name, xPosition, yPosition, "BLACK", w);
         w.addRobots(this);
         this.getCanvasRobot().setColourHead("ORANGE");
-        this.getCanvasRobot().setColourEye("PURPLE");
+        this.getCanvasRobot().setColourEye("PINK");
     }
     
     /**
